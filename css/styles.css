@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --font-family: 'Rubik', sans-serif;
+    --color-menu: #4a4a4a;
+    --color-background: #3CDBC0;
+    --color-title: #FFFFFF;
+}
+
+.header{
+    position: sticky;
+    width: 100vw;
+    background-color: white;
+    height: 110px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--color-menu);
+}
