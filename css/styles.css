@@ -11,11 +11,12 @@
 
 .header{
     position: sticky;
+    top: 0;
     width: 100vw;
     background-color: white;
     height: 110px;
     text-align: center;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .menu{
@@ -28,3 +29,24 @@
     font-size: 16px;
     color: var(--color-menu);
 }
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-background);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+    font-family: var(--font-family);
+    color: var(--color-title);
+    font-weight: 800;
+    width: 10ch;
+    text-align: center;
+    line-height: 40px;
+}
+
